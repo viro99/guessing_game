@@ -13,8 +13,10 @@ fn main() {
     
     loop {
         count += 1;
-
-        println!("Please input your guess 1-100.");
+        if count == 15 {
+            break println!("GAME OVER- YOU LOSE! OUT OF GUESSES.");
+        }
+        println!("Please input your guess of 1-100. You can only have 15 guesses!");
         
         let mut guess = String::new();
         
