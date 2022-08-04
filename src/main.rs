@@ -5,12 +5,15 @@ use rand::Rng;
 fn main() {
     println!("Guess the number!");
     
+    //let quit = string::from("q");
+
     let secret_number = rand::thread_rng().gen_range(1,101);
     
     //println!("The secret number is: {}", secret_number);
 
     let mut count = 0; 
     
+
     loop {
         count += 1;
         if count == 15 {
@@ -30,6 +33,8 @@ fn main() {
             //.expect("Please type a number!");
 
         println!("You guessed: {}, this was guess #{}", guess,count);
+
+            
 
         match guess.cmp(&secret_number) { 
             Ordering::Less => println!("Too small!"), 

@@ -1,2 +1,3 @@
 #Ignore the target file when i use 'git add.' in terminal to commit to github.
 *.target
+*.DS_Storeexit
