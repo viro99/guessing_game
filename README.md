@@ -1,1 +1,1 @@
-Hello! my name is vince and this is my first rustt project as I begin my rust journey! 
+Hello! My name is vincent and this is my first rust project as I begin my rust journey! 
